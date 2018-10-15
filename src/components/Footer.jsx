@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-
-export default class Contact extends Component {
+export default class Footer extends Component {
   render() {
     return (
       <div>
