@@ -2,7 +2,7 @@
   "name": "profile-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stephen8898.github.io/Profile-Page-new/",
+  "homepage": " https://stephen8898.github.io/Profile-Page-new/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
