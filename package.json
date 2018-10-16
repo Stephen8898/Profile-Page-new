@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://stephen8898.github.io/Profile-Page-new/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
@@ -11,8 +12,8 @@
     "react-scripts": "2.0.4"
   },
   "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
