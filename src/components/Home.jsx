@@ -8,6 +8,7 @@ export default class Home extends Component {
     return (
       <Grid>
           <Jumbotron>
+              <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive />
               <h2>Welcome to my profile-page</h2>
               <p>This is how your build a website with react router and bootstrap</p>
               <Link to="/about">
@@ -21,6 +22,7 @@ export default class Home extends Component {
                 <p>He wants to be a developer.</p>
             </Col>
           </Row>
+
       </Grid>
     )
   }
