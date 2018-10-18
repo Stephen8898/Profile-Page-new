@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Footer.css';
+import './style/Footer.css';
 import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
@@ -9,7 +9,7 @@ export default class Footer extends Component {
         <hr/>
         <h6><Link to="/" >Home</Link></h6>
         <h6><Link to="/contact" >Contact Me</Link></h6>  <h6><Link to="/about" >About Me</Link></h6>
-        {/* <i className="footer">&#169; All rights reseverved</i> */}
+         <em className="footer">&copy; Stephen web-page </em> 
       </div>
     )
   }

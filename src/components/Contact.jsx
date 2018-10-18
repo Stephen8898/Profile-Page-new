@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { PageHeader, Grid, Row, Col, Image } from "react-bootstrap";
-import './Contact.css';
+import './style/Contact.css';
 
 export default class Contact extends Component {
   render() {
