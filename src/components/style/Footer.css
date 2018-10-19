@@ -7,7 +7,7 @@
 
 
 .link-footer{
-    background-color: rgb(20, 45, 120);
+    /* background-color: rgb(20, 45, 120); */
 }
 
 .links{
@@ -51,6 +51,6 @@ Link {
 
 .footer-copy{
     padding-top: 20px;
-    background-color: rgb(63, 65, 63);
-    color: white;
+    /* background-color: rgb(63, 65, 63); */
+    color: rgb(20, 20,20);
 }

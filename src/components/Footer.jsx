@@ -14,7 +14,7 @@ export default class Footer extends Component {
         <span className="about-link"><Link to="/about" >About Me</Link></span>
         </div>
         </div>
-        <hr id="hr-bottom"/>
+        {/* <hr id="hr-bottom"/> */}
         <div className="footer-copy">
          <em>&copy; Stephen web-page </em> 
          </div>

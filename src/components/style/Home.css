@@ -1,15 +1,19 @@
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right:  0px;
+    margin-left: 0px;
+    /* margin-left: 50%; */
+}
+
+
 @media (min-width: 768px){
    .page-header {
 
     }
 }
 
-.container {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right:  0px;
-    margin-left: 0px;
-}
+
 
 .page-header {
     padding: 30px 90px 30px 90px;
@@ -32,12 +36,14 @@ h1 {
  .container-fluid {
     padding: 115px 0 200px;
     background-color: gray;
+
     /* background-image: url("/assets/Banner-wallPic.jpg");
     filter: blur(2px);
     -webkit-filter: blur(2px); */
  }
  .container-banner {
      font-family: sans-serif;
+     
    
  }
 * {

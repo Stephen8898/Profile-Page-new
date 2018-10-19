@@ -6,7 +6,7 @@ import './style/Home.css';
 export default class Home extends Component {
   render() {
     return (
-      <Grid>
+      <Grid className="page-layout">
           {/* <Jumbotron>
               <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive />
               <h2>Welcome to my profile-page</h2>
