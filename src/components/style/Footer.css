@@ -4,3 +4,53 @@
    width: 50%; */
    /* margin: 50%; */
 }
+
+
+.link-footer{
+    background-color: rgb(20, 45, 120);
+}
+
+.links{
+
+}
+Link {
+    margin: 0px;
+    color: white;
+}
+
+/* .home-link .contact-link .about-link{
+    color: whitesmoke;
+} */
+.home-link{
+    margin-top: 0px;
+    margin-right: 25px;
+    text-align: left; 
+    /* float: left; */
+}
+
+.contact-link{
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.about-link{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    text-align: right;
+    /* float: right; */
+}
+#hr-top {
+    margin: 0px;
+}
+#hr-bottom {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-copy{
+    padding-top: 20px;
+    background-color: rgb(63, 65, 63);
+    color: white;
+}

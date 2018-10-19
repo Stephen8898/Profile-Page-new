@@ -6,10 +6,18 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <hr/>
-        <h6><Link to="/" >Home</Link></h6>
-        <h6><Link to="/contact" >Contact Me</Link></h6>  <h6><Link to="/about" >About Me</Link></h6>
-         <em className="footer">&copy; Stephen web-page </em> 
+        <hr id="hr-top"/>
+        <div className="link-footer">
+        <div className="links">
+        <span className="home-link"><Link to="/" >Home</Link></span>
+        <span className="contact-link"><Link to="/contact" >Contact Me</Link></span>  
+        <span className="about-link"><Link to="/about" >About Me</Link></span>
+        </div>
+        </div>
+        <hr id="hr-bottom"/>
+        <div className="footer-copy">
+         <em>&copy; Stephen web-page </em> 
+         </div>
       </div>
     )
   }
