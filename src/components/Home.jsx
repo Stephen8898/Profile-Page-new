@@ -4,7 +4,20 @@ import { Jumbotron, Grid, Row, Col, Image, Button, PageHeader } from "react-boot
 import './style/Home.css';
 
 export default class Home extends Component {
-  render() {
+  constructor (props){
+        super(props)
+        this.state = {
+            
+        }
+  }
+
+    render() {
+
+
+
+
+
+
     return (
       <Grid className="page-layout">
           {/* <Jumbotron>
@@ -29,6 +42,9 @@ export default class Home extends Component {
                 <Image src="assets/linkdenProf.jpg" placeholder="Image here" circle className="profile-pic"/>
                 <h3>Steve</h3>
                 <p>He wants to be a developer.</p>
+            </Col>
+            <Col sm={6} md={3} className="news-box">
+                <h4>News Box</h4>
             </Col>
           </Row>
 
