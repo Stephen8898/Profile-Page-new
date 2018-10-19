@@ -7,17 +7,27 @@ export default class Home extends Component {
   constructor (props){
         super(props)
         this.state = {
-            
+
         }
   }
 
-    render() {
+    generateNews = this.generateNews.bind(this)
 
-
-
-
-
-
+     generateNews(){
+       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey=878b3482fff648a9a468d877d578e159")
+        .then((result) => {
+            return result.json();
+        })
+        .then((json) =>{
+            console.log(json);
+        })
+    }
+  
+    componentDidMount() {
+        this.generateNews();
+      }
+  
+  render() {
     return (
       <Grid className="page-layout">
           {/* <Jumbotron>
@@ -45,6 +55,7 @@ export default class Home extends Component {
             </Col>
             <Col sm={6} md={3} className="news-box">
                 <h4>News Box</h4>
+                <Button onClick={this.generateNews}>News</Button>
             </Col>
           </Row>
 
