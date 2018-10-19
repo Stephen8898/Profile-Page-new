@@ -54,7 +54,7 @@ export default class Home extends Component {
                 <p>He wants to be a developer.</p>
             </Col>
             <Col sm={6} md={3} className="news-box">
-                <h4>News Box</h4>
+                <h4>News Feed</h4>
                 <Button onClick={this.generateNews}>News</Button>
             </Col>
           </Row>
