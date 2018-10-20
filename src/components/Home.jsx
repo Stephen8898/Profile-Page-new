@@ -14,7 +14,7 @@ export default class Home extends Component {
     generateNews = this.generateNews.bind(this)
 
      generateNews(){
-       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="Process.env.)
+       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ process.env.API_key)
         .then((result) => {
             return result.json();
         })
