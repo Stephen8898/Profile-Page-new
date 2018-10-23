@@ -1,5 +1,5 @@
 
-element.style {
+/* element.style {
 }
 @media (min-width: 768px){
 
@@ -21,7 +21,7 @@ element.style {
     border-left-color: rgb(231, 231, 231);
 }
 .navbar-default {
-    background-image: linear-gradient(to bottom,transparent 0,transparent 100%);
+    background-image: linear-gradient(to bottom,#808080 0,#808080 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
@@ -34,20 +34,22 @@ element.style {
 }
 
 .navbar {
-    position: relative;
+    /* just changed navbar postion from reletive to absloute 
+
+    position: fixed;
     min-height: 50px;
-    /* margin-bottom: 0px; */
-    border: 1px solid transparent;
-    border-top-color: transparent;
+    /* margin-bottom: 0px; 
+    border: 1px solid #808080;
+    border-top-color: #808080;
     border-top-style: solid;
     border-top-width: 1px;
-    border-right-color: transparent;
+    border-right-color: #808080;
     border-right-style: solid;
     border-right-width: 1px;
-    border-bottom-color: transparent;
+    border-bottom-color: #808080;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: transparent;
+    border-left-color: #808080;
     border-left-style: solid;
     border-left-width: 1px;
     border-image-source: initial;
@@ -81,7 +83,7 @@ element.style {
     position: relative;
     min-height: 50px;
     margin-bottom: 0px;
-    border: 1px solid transparent;
+    border: 1px solid #808080;
 }
 
 article, aside, footer, header, hgroup, main, nav, section {
@@ -99,4 +101,76 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+} */
+
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#252525c7 0,#252525c7 100%) !important; /* override background image gradient w/ flat color */
 }
+.navbar-default {
+    /* background-image: -webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#f8f8f8 100%); */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+    /* background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%); */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); */
+    background-repeat: repeat-x;
+    /* border-radius: 4px; */
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);
+}
+.navbar-default {
+    background-color: #252525c7;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-brand {
+    color: #eee;
+}
+
+.navbar-brand{
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+@media (min-width: 768px){
+.navbar {
+    border-radius: 4px;
+}
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #252525c7;
+    border-radius: 0px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+

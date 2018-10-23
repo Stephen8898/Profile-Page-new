@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button, PageHeader } from "react-bootstrap";
+import Navbar from './CustomNavbar';
 import './style/Home.css';
 
 export default class Home extends Component {
+
   constructor (props){
         super(props)
         this.state = {
@@ -11,13 +13,14 @@ export default class Home extends Component {
         }
   }
 
+    api_Key = process.env.API_key;
     generateNews = this.generateNews.bind(this)
 
      generateNews(){
-       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ process.env.API_key)
+       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ this.api_Key)
         .then((result) => {
             return result.json();
-        })
+                })
         .then((json) =>{
             console.log(json);
         })
@@ -29,7 +32,7 @@ export default class Home extends Component {
   
   render() {
     return (
-      <Grid className="page-layout">
+      <div className="container-fluid">
           {/* <Jumbotron>
               <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive />
               <h2>Welcome to my profile-page</h2>
@@ -38,15 +41,18 @@ export default class Home extends Component {
             <Button bsStyle="primary"> About </Button>
           </Link>
           </Jumbotron> */}
-          <div className="container-fluid">
-                <div className="container-banner">
-
-                </div>
-          </div>
-          <PageHeader>
+          <PageHeader className="page-header">
           {/* <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive /> */}
+          <div className="page-info">
           <h1>Stephen Sarfo</h1>
+          </div>
           </PageHeader>
+          {/* <div className="container-fluid"> */}
+                <div className="container-banner">
+                   <h1>This will get my info</h1>
+                </div>
+          {/* </div> */}
+          
           <Row className="show-grid test-center">
             <Col xs={12} sm={4} className="person-wrapper">
                 <Image src="assets/linkdenProf.jpg" placeholder="Image here" circle className="profile-pic"/>
@@ -59,7 +65,7 @@ export default class Home extends Component {
             </Col>
           </Row>
 
-      </Grid>
+      </div>
     )
   }
 }

@@ -7,7 +7,7 @@ import './style/CustomNavbar.css';
 export default class CustomNavbar extends Component {
   render() {
     return (
-      <Navbar default collapseOnSelect>
+      <Navbar className="navbar navbar-dark bg-dark">
         <Navbar.Header>
             <Navbar.Brand>
                     Stephen Page
