@@ -37,15 +37,18 @@
 
 .page-info{
     background-color: #eee;
+    text-align: center;
+    margin-top: 15%;
     display: block;
 }
 
-h1 {
-   /* text-shadow: 5em; */
+/* h1 {
+   /* text-shadow: 5em; 
     margin-top: 5em;
     text-align: left;
     color: #757575;
-}
+} */ 
+
 
  .container-fluid {
     padding: 1px 0 200px;
@@ -62,6 +65,7 @@ h1 {
      padding: 10px;
      background-color: #fff;
      /* font-family: sans-serif; */
+     text-align: center;
      
    
  }
