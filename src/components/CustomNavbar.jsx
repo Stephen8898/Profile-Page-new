@@ -5,9 +5,11 @@ import { HashRouter} from  'react-router-dom';
 import './style/CustomNavbar.css';
 
 export default class CustomNavbar extends Component {
+
   render() {
+
     return (
-      <Navbar className="navbar navbar-dark bg-dark">
+      <Navbar fixedTop>
         <Navbar.Header>
             <Navbar.Brand>
                     Stephen Page
@@ -21,7 +23,7 @@ export default class CustomNavbar extends Component {
               <NavItem eventKey={3}  href="/contact" componentClass={Link} to="/contact">Contact</NavItem>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+        </Navbar>
     )
   }
 }

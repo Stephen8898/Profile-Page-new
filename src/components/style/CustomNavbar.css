@@ -35,8 +35,9 @@
   color: #eee;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    border-bottom: 3px solid red;
-    text-decoration: underline;
+    /* color:#eee; */
+    background-color: #eee;
+    /* border-bottom: 3px solid red; */
 }
 
 .navbar-default .navbar-nav>li>a:active{
@@ -63,10 +64,17 @@ a {
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.nav, .navbar-nav, .navbat-right{
     margin-right: 0px;
 }
+ .navbar-default> .container {
+    /* margin: 0px; */
+    margin-right: 5% !important;
+    padding-right: 15px;
+    padding-left: 15px !important;
+    margin-left: 6%;
+}
 .container {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: 10px;;
+    margin-right: 10px;
     margin-left: auto;
 }
 
@@ -76,7 +84,7 @@ a {
 }
 }
 .navbar {
-    position: relative;
+    position: fixed;
     min-height: 50px;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -84,6 +92,13 @@ a {
     border: 1px solid #252525c7;
     border-radius: 0px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
 }

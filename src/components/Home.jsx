@@ -44,14 +44,13 @@ export default class Home extends Component {
           <PageHeader className="page-header">
           {/* <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive /> */}
           <div className="page-info">
-          <h1>Stephen Sarfo</h1>
+            <h1>Web Developer</h1>
+            <h4>Student at Lehman College</h4>
           </div>
           </PageHeader>
-          {/* <div className="container-fluid"> */}
                 <div className="container-banner">
-                   <h1>This will get my info</h1>
+                   <h1>About</h1>
                 </div>
-          {/* </div> */}
           
           <Row className="show-grid test-center">
             <Col xs={12} sm={4} className="person-wrapper">
