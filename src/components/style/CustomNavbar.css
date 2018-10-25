@@ -66,10 +66,10 @@ a {
 }
  .navbar-default> .container {
     /* margin: 0px; */
-    margin-right: 5% !important;
+    margin-right: 0px !important;
     padding-right: 15px;
     padding-left: 15px !important;
-    margin-left: 6%;
+    margin-left: 8%;
 }
 .container {
     padding-right: 15px;
