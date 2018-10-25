@@ -6,9 +6,9 @@ export default class Contact extends Component {
   render() {
     return (
         <div>
-        <PageHeader className="header">
+        <div className="header">
         Contacts <small>Where to find me</small>
-      </PageHeader>
+      </div>
 
         <h3>Email</h3>
         </div>

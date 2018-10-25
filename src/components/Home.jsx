@@ -44,7 +44,7 @@ export default class Home extends Component {
           <PageHeader className="page-header">
           {/* <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive /> */}
           <div className="page-info">
-            <h1>Web Developer</h1>
+            <h1>Junior Web Developer</h1>
             <h4>Student at Lehman College</h4>
           </div>
           </PageHeader>
