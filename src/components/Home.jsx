@@ -48,6 +48,7 @@ export default class Home extends Component {
             <h4>Student at Lehman College</h4>
           </div>
           </PageHeader>
+          <Row className="show-grid test-center">
                 <div className="container-banner">
                    <h1>About</h1>
                    <div className="pic-div">
@@ -55,7 +56,7 @@ export default class Home extends Component {
                    </div>
                 </div>
           
-          <Row className="show-grid test-center">
+          <Row>
             <Col xs={12} sm={4} className="person-wrapper">
                 {/* <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/> */}
                 <h3>Steve</h3>
@@ -65,6 +66,7 @@ export default class Home extends Component {
                 <h4>News Feed</h4>
                 <Button onClick={this.generateNews}>News</Button>
             </Col>
+            </Row>
           </Row>
 
       </div>

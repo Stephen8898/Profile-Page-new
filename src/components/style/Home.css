@@ -23,7 +23,7 @@
 }
 
 .page-header {
-    padding: 30px 100px 30px 90px;
+    padding: 5px 100px 70px 90px;
     /* width: fit-content; */
     /* position: relative; */
     padding-right: 5em; 
@@ -129,7 +129,11 @@
 }
 
 .show-grid{
-    margin-top: 10em;
+    margin-top: 0em;
+    margin-right: 11em;
+    margin-left: 11em;
+    border-left: 1px solid #1e1e1e;
+    border-right: 1px solid #1e1e1e;
 }
 /* 
 .btn-primary {
