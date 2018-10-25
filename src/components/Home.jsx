@@ -50,11 +50,14 @@ export default class Home extends Component {
           </PageHeader>
                 <div className="container-banner">
                    <h1>About</h1>
+                   <div className="pic-div">
+                   <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/>
+                   </div>
                 </div>
           
           <Row className="show-grid test-center">
             <Col xs={12} sm={4} className="person-wrapper">
-                <Image src="assets/linkdenProf.jpg" placeholder="Image here" circle className="profile-pic"/>
+                {/* <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/> */}
                 <h3>Steve</h3>
                 <p>He wants to be a developer.</p>
             </Col>
