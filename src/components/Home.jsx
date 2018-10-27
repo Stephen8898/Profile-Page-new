@@ -51,11 +51,11 @@ export default class Home extends Component {
           <Row className="show-grid test-center">
                 {/* <div className="container-banner"> */}
                    {/* <h1>About</h1> */}
-                   < Row sm={6} md={3} className="logos">
+                   <div sm={6} md={3} className="logos">
                    <Image src="assets/html-5-logo.png" placeholder="Image here"  className="html-logo" height="200px" width="150px" responsive/>
                    <Image src="assets/css-svg-logo.png" placeholder="Image here"  className="css-logo" height="200px" width="150px" responsive/>
                    <Image src="assets/javascript_badge.png" placeholder="Image here"  className="js-logo" height="200px" width="200px" responsive/>
-                   </Row>
+                   </div>
                    <div className="pic-div">
                    {/* <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/> */}
                    </div>

@@ -141,8 +141,9 @@
 
 .logos{
     margin-top: 5em;
-    margin-right: 14em;
-    float: right;
+    margin-right: auto;
+    margin-left: auto; 
+    /* float: right; */
 }
 
 .show-grid .html-logo{

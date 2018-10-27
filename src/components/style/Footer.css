@@ -55,3 +55,15 @@ ul, ol {
     visibility: hidden;
     transition: .22s ease;
 }
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.container {
+    /* margin: 0px; */
+}
+

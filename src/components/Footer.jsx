@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default class Footer extends Component {
   render() {
     return (
-     <div >
+     <div className="footer">
         <footer className="section footer-classic context-dark bg-image">
                 <div className="container">
                   <div className="row row-30">
@@ -35,7 +35,7 @@ export default class Footer extends Component {
                       <div className="nav-list">
                       <ul>
                         <li className="home-link"><Link to="/" >Home</Link></li>
-                        <li className="contact-link"><Link to="/contact" >Contact Me</Link></li>  
+                        <li className="blog-link"><Link to="/blog" >Blog</Link></li>  
                         <li className="about-link"><Link to="/portfolio" >Portfolio</Link></li>
                       </ul>
                       </div>
