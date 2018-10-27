@@ -28,7 +28,7 @@
 .navbar-default .navbar-nav>li>a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 17px 16px;
   text-decoration: none;
   font-size: 17px;
   border-bottom: 3px solid transparent;
@@ -37,11 +37,11 @@
 .navbar-default .navbar-nav>li>a:hover {
     /* color:#eee; */
     background-color: #eee;
-    /* border-bottom: 3px solid red; */
+    border-bottom: 4px solid #252525c7;
 }
 
 .navbar-default .navbar-nav>li>a:active{
-    border-bottom: 3px solid #252525c7;
+    border-bottom: 5px solid #c6c90b;
 }
 
 .navbar-default .navbar-brand {
@@ -51,7 +51,7 @@
     border-radius: 15px;
     background-color: #eee;
     float: left;
-    height: 50px;
+    height: 60px;
     /* width: 55px; */
     /* padding: 15px 15px; */
     font-size: 18px;
@@ -72,6 +72,8 @@ a {
 }
  .navbar-default> .container {
     /* margin: 0px; */
+    padding-top: 2px;
+    padding-bottom: 1px;
     margin-right: 0px !important;
     padding-right: 15px;
     padding-left: 15px !important;
@@ -104,6 +106,19 @@ a {
     top: 0;
     width: 100%;
   }
+
+  .brand-logo:hover {
+    animation: Brand-logo-spin infinite 1s linear;
+  }
+
+  @keyframes Brand-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
