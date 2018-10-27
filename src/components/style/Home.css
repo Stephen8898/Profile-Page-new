@@ -23,7 +23,7 @@
 }
 
 .page-header {
-    padding: 5px 100px 70px 90px;
+    padding: 5px 100px 80px 90px;
     /* width: fit-content; */
     /* position: relative; */
     padding-right: 5em; 
@@ -94,6 +94,7 @@
      background-color: #fff;
      font-family: "Montserrat", sans-serif;
      text-align: center;
+     margin-top: 10em;
      margin-bottom: 5em;
  }
 
@@ -132,8 +133,16 @@
     margin-top: 0em;
     margin-right: 11em;
     margin-left: 11em;
-    border-left: 1px solid #1e1e1e;
-    border-right: 1px solid #1e1e1e;
+    /* border-left: 1px solid #1e1e1e;
+    border-right: 1px solid #1e1e1e; */
+}
+
+.logos{
+
+}
+
+.react-logo {
+    float: right;
 }
 /* 
 .btn-primary {

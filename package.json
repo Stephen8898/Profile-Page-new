@@ -4,6 +4,7 @@
   "private": true,
   "homepage": " https://stephen8898.github.io/Profile-Page-new/",
   "dependencies": {
+    "aws-sdk": "^2.343.0",
     "gh-pages": "^2.0.1",
     "npm": "^6.4.1",
     "react": "^16.5.2",

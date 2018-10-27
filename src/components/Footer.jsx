@@ -11,7 +11,7 @@ export default class Footer extends Component {
         <div className="links">
         <span className="home-link"><Link to="/" >Home</Link></span>
         <span className="contact-link"><Link to="/contact" >Contact Me</Link></span>  
-        <span className="about-link"><Link to="/about" >About Me</Link></span>
+        <span className="portfolio-link"><Link to="/portfolio" >Portfolio</Link></span>
         </div>
         </div>
         {/* <hr id="hr-bottom"/> */}

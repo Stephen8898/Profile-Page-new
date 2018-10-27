@@ -6,29 +6,29 @@ import './style/Home.css';
 
 export default class Home extends Component {
 
-  constructor (props){
-        super(props)
-        this.state = {
+  // constructor (props){
+  //       super(props)
+  //       this.state = {
 
-        }
-  }
+  //       }
+  // }
 
-    api_Key = process.env.API_key;
-    generateNews = this.generateNews.bind(this)
+ 
+    // generateNews = this.generateNews.bind(this)
 
-     generateNews(){
-       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ this.api_Key)
-        .then((result) => {
-            return result.json();
-                })
-        .then((json) =>{
-            console.log(json);
-        })
-    }
+    //  generateNews(){
+    //    fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ this.api_Key)
+    //     .then((result) => {
+    //         return result.json();
+    //             })
+    //     .then((json) =>{
+    //         console.log(json);
+    //     })
+    // }
   
-    componentDidMount() {
-        this.generateNews();
-      }
+    // componentDidMount() {
+    //     this.generateNews();
+    //   }
   
   render() {
     return (
@@ -49,25 +49,28 @@ export default class Home extends Component {
           </div>
           </PageHeader>
           <Row className="show-grid test-center">
-                <div className="container-banner">
-                   <h1>About</h1>
+                {/* <div className="container-banner"> */}
+                   {/* <h1>About</h1> */}
+                   < Col sm={6} md={3} className="logos">
+                   <Image src="assets/React_logo.png" placeholder="Image here"  className="react-logo" responsive/>
+                   </Col>
                    <div className="pic-div">
-                   <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/>
+                   {/* <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/> */}
                    </div>
-                </div>
-          
+                {/* </div> */}
+          </Row>
           <Row>
-            <Col xs={12} sm={4} className="person-wrapper">
+            {/* <Col xs={12} sm={4} className="person-wrapper"> */}
                 {/* <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/> */}
-                <h3>Steve</h3>
+                {/* <h3>Steve</h3>
                 <p>He wants to be a developer.</p>
-            </Col>
-            <Col sm={6} md={3} className="news-box">
+            </Col> */}
+            {/* <Col sm={6} md={3} className="news-box">
                 <h4>News Feed</h4>
                 <Button onClick={this.generateNews}>News</Button>
-            </Col>
-            </Row>
+            </Col> */}
           </Row>
+          
 
       </div>
     )
