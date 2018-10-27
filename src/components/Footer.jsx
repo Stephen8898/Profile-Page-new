@@ -5,20 +5,46 @@ import { Link } from 'react-router-dom';
 export default class Footer extends Component {
   render() {
     return (
-      <div className="footer">
-        <hr id="hr-top"/>
-        <div className="link-footer">
-        <div className="links">
-        <span className="home-link"><Link to="/" >Home</Link></span>
-        <span className="contact-link"><Link to="/contact" >Contact Me</Link></span>  
-        <span className="portfolio-link"><Link to="/portfolio" >Portfolio</Link></span>
-        </div>
-        </div>
-        {/* <hr id="hr-bottom"/> */}
-        <div className="footer-copy">
-         <em>&copy; Stephen web-page </em> 
-         </div>
-      </div>
+     <div >
+        <footer className="section footer-classic context-dark bg-image">
+                <div className="container">
+                  <div className="row row-30">
+                    <div className="col-md-4 col-xl-5">
+                      <div className="pr-xl-4"><a className="brand" href="index.html"><img className="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" src="images/agency/logo-retina-inverse-280x74.png 2x"/></a>
+                        <p>This is my profile page I created, please explore it and I hope my work speaks for itself.</p>
+                         Rights
+                        {/* <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p> */}
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <h5>Contacts</h5>
+                      <dl className="contact-list">
+                      </dl>
+                      <dl className="contact-list">
+                        <dt>email:</dt>
+                        <dd><a href="mailto:#">stephen.sarfo1998@outlook.com</a></dd>
+                      </dl>
+                      <dl className="contact-list">
+                        <dt>phones:</dt>
+                        <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                        </dd>
+                      </dl>
+                    </div>
+                    <div className="col-md-4 col-xl-3">
+                      <h5>Links</h5>
+                      <ul className="nav-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contacts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="footer-copyright text-center py-3">© 2018 Copyright:
+                  <a href="/">Stephen web-page </a>
+                </div>
+                </div>
+            </footer>
+        </div> 
     )
   }
 }
