@@ -32,11 +32,13 @@ export default class Footer extends Component {
                     </div>
                     <div className="col-md-4 col-xl-3">
                       <h5>Links</h5>
-                      <ul className="nav-list">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contacts</a></li>
+                      <div className="nav-list">
+                      <ul>
+                        <li className="home-link"><Link to="/" >Home</Link></li>
+                        <li className="contact-link"><Link to="/contact" >Contact Me</Link></li>  
+                        <li className="about-link"><Link to="/portfolio" >Portfolio</Link></li>
                       </ul>
+                      </div>
                     </div>
                   </div>
                   <div className="footer-copyright text-center py-3">© 2018 Copyright:
