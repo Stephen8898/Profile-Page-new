@@ -44,16 +44,18 @@ export default class Home extends Component {
           <PageHeader className="page-header">
           {/* <Image className="image-jumbotron" src="assets/SpaceIIMG.jpg" responsive /> */}
           <div className="page-info">
-            <h1>Junior Web Developer</h1>
-            <h4>Student at Lehman College</h4>
+            <h1>Stephen Sarfo</h1>
+            <h4>Junior Web Developer</h4>
           </div>
           </PageHeader>
           <Row className="show-grid test-center">
                 {/* <div className="container-banner"> */}
                    {/* <h1>About</h1> */}
-                   < Col sm={6} md={3} className="logos">
-                   <Image src="assets/React_logo.png" placeholder="Image here"  className="react-logo" responsive/>
-                   </Col>
+                   < Row sm={6} md={3} className="logos">
+                   <Image src="assets/html-5-logo.png" placeholder="Image here"  className="html-logo" height="200px" width="150px" responsive/>
+                   <Image src="assets/css-svg-logo.png" placeholder="Image here"  className="css-logo" height="200px" width="150px" responsive/>
+                   <Image src="assets/javascript_badge.png" placeholder="Image here"  className="js-logo" height="200px" width="200px" responsive/>
+                   </Row>
                    <div className="pic-div">
                    {/* <Image src="assets/linkdenProf.jpg" placeholder="Image here" sandbox className="profile-pic"/> */}
                    </div>

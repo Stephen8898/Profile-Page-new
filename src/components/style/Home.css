@@ -47,7 +47,8 @@
     /* background-color: #eee; */
     font-family: "courier header", sans-serif;
     text-align: center;
-    color: #111;
+    color: #2c2c2c;
+    
     /* color: #eeec; */
     margin-top: 10%;
     display: block;
@@ -56,6 +57,7 @@
 .page-info> h1 {
     font-size: 65px;
     margin-bottom: 5px;
+    text-shadow: 4px 5px 5px #4f4f5f;
    
 }
 .page-info> h4{
@@ -76,7 +78,7 @@
 
 
  .container-fluid {
-    padding: 1px 0 100px;
+    padding: 0px 0 100px;
     /* background-image: url("/assets/gray-background.jpg");
     background-position:center; */
     /* background-repeat: repeat; */
@@ -138,11 +140,24 @@
 }
 
 .logos{
-
+    margin-top: 5em;
+    margin-right: 14em;
+    float: right;
 }
 
-.react-logo {
+.show-grid .html-logo{
+   float: right;
+   margin-left: 10em;
+}
+
+.show-grid .js-logo{
     float: right;
+    margin-right: 20em;
+}
+
+.show-grid .css-logo{
+    float: right;
+    margin-right: 10em;
 }
 /* 
 .btn-primary {

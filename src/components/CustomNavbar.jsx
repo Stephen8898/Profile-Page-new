@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, NavItem} from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Image} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './style/CustomNavbar.css';
 
@@ -11,7 +11,7 @@ export default class CustomNavbar extends Component {
       <Navbar fixedTop>
         <Navbar.Header>
             <Navbar.Brand>
-                    Stephen Page
+                    <Image src="assets/s_logo.png" height="100px" width="80px" responsive/>
             </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Toggle/>

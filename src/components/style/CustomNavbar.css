@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 .container> .navbar-collapse {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -47,9 +47,15 @@
 .navbar-default .navbar-brand {
     color: #eee;
 }
-
-.navbar-brand{
-    font-family: "Montserrat", sans-serif;
+.navbar-brand {
+    border-radius: 15px;
+    background-color: #eee;
+    float: left;
+    height: 50px;
+    /* width: 55px; */
+    /* padding: 15px 15px; */
+    font-size: 18px;
+    line-height: 20px;
 }
 
 a {
@@ -86,7 +92,7 @@ a {
 .navbar {
     position: fixed;
     min-height: 50px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     border: 1px solid #252525c7;
