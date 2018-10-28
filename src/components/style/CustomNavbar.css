@@ -21,6 +21,10 @@
     border-color: #e7e7e7;
     overflow: hidden;
 }
+.container>.navbar-header {
+    margin-top: .4%;
+    margin-left: 15%;
+}
 .container> .navbar-collapse {
     padding-bottom: 0px;
 }
@@ -51,8 +55,8 @@
     border-radius: 15px;
     background-color: #eee;
     float: left;
-    height: 60px;
-    /* width: 55px; */
+    /* height: 60px; */
+    width: 55px;
     /* padding: 15px 15px; */
     font-size: 18px;
     line-height: 20px;

@@ -11,7 +11,7 @@ export default class CustomNavbar extends Component {
       <Navbar fixedTop>
         <Navbar.Header>
             <Navbar.Brand>
-                    <Image src="assets/smyf_logo.png" height="100px" width="80px" className="brand-logo" responsive/>
+                  <a href="/"> <Image src="assets/smyf_logo.png" className="brand-logo" responsive/></a>
             </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Toggle/>

@@ -8,6 +8,9 @@
     
 
 }*/
+.container-fluid{
+    position: inherit;
+}
 
 @media (min-width: 768px){
    .page-header {
@@ -40,6 +43,16 @@
    /* backdrop-filter: blur(10px); */
     /* background-color: rgba(75, 204, 176, 0.87); */
     /* background-image: url("/assets/SpaceIIMG.jpg"); */
+}
+
+.page-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: .5;
 }
 
 .page-info{

@@ -14,8 +14,6 @@ export default class Blog extends Component {
     return (
       <div>
         <header className="masthead" style={style}>
-        {/* <h1>Contacts <small>Where to find me</small></h1>
-        <h3>Email</h3> */}
         <div className="overlay"></div>
         <div className="container">
          <div className="row">
