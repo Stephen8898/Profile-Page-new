@@ -46,7 +46,7 @@ header.masthead .overlay {
 }
 
 header.masthead {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     background: no-repeat center center;
     background-color: #868e96;
     background-attachment: scroll;
@@ -58,10 +58,13 @@ header.masthead {
 header.masthead .site-heading {
     text-align: center;
     color: #fff;
+    font-size: 100px;
 }
 
+
+
 header.masthead .site-heading .subheading {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.1;
     display: block;
@@ -81,6 +84,11 @@ header.masthead .page-heading, header.masthead .post-heading, header.masthead .s
     color: #fff;
 }
 
+@media only screen and (min-width: 768px){
+header.masthead .page-heading h1, header.masthead .site-heading h1 {
+    font-size: 80px;
+}
+}
 
 header {
     display: block;

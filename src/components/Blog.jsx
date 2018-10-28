@@ -8,7 +8,7 @@ export default class Blog extends Component {
 
   render() {
     var style = {
-        backgroundImage: `url(${'/assets/Banner-wallPic.jpg'})`
+        backgroundImage: `url(${'/assets/clouds-texture01.jpg'})`
      
     };
     return (
@@ -22,7 +22,7 @@ export default class Blog extends Component {
           <div className="col-lg-8 col-md-10 mx-auto">
             <div className="site-heading">
                <h1>Blog</h1>
-                <span className="sub-heading">Blogs will be posted here</span>
+                <span className="subheading">Blogs will be posted here</span>
             </div>
           </div>
          </div>
