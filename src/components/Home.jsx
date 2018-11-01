@@ -39,6 +39,7 @@ export default class Home extends Component {
     };
     return (
       <div> 
+        {/* <Grid> */}
           <header className="page-header" style={pageheader}>
           {/* <div className="overlay"></div> */}
           <div className="container">
@@ -46,25 +47,31 @@ export default class Home extends Component {
           <div className="col-lg-8 col-md-10 mx-auto">
             <div className="page-info">
             <h1>Stephen Sarfo</h1>
-              <span className="subheading">Junior Web Developer</span>
+              <h4>Junior Web Developer</h4>
              </div>
             </div>
           </div>
          </div>
         </header>
-{/*         
-          <Row sm={2} md={3} className="show-grid test-center" responsive>
-             <div  className="logos">
-             <Image src="assets/html-5-logo.png" placeholder="Image here"  className="html-logo" height="200px" width="150px" responsive/>
-             <Image src="assets/css-svg-logo.png" placeholder="Image here"  className="css-logo" height="200px" width="150px" responsive/>
-             <Image src="assets/javascript_badge.png" placeholder="Image here"  className="js-logo" height="200px" width="200px" responsive/>
-             </div>
-          </Row> */}
+   <Grid>
+    <Row sm={2} md={3} className="show-grid test-center" responsive>
+         <div  className="logos">
+         {/* <Col> */}
+         <Image src="assets/html-5-logo.png" placeholder="Image here"  className="html-logo" height="200px" width="150px" responsive/>
+         {/* </Col>
+         <Col> */}
+         <Image src="assets/css-svg-logo.png" placeholder="Image here"  className="css-logo" height="200px" width="150px" responsive/>
+         {/* </Col>
+         <Col> */}
+         <Image src="assets/javascript_badge.png" placeholder="Image here"  className="js-logo" height="200px" width="200px" responsive/>
+         {/* </Col> */}
+         </div>
+      </Row> 
           <Row>
           
           </Row>
             
-
+      </Grid>
       </div>
     )
   }
