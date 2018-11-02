@@ -2,7 +2,7 @@
   "name": "profile-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://stephen8898.github.io/Profile-Page-new/",
+  "homepage": "https://stephensarfo.me",
   "dependencies": {
     "aws-sdk": "^2.343.0",
     "gh-pages": "^2.0.1",
@@ -14,7 +14,7 @@
     "react-scripts": "2.0.4"
   },
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

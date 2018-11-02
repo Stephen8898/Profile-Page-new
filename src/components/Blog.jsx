@@ -31,8 +31,16 @@ export default class Blog extends Component {
          <div className="row">
           <div className="col-lg-8 col-md-10 mx-auto">
             <div className="post-preview">
-                <a></a>
-                
+                <a href="#" ><h2 className="post-title">
+                This just an example blog page, it is a place holder for the real one
+                  </h2>
+                  <h3 className="post-subtitle">
+                      Look here upon the great nothingness of this world
+                  </h3>
+                </a>
+                <p className="post-meta">Posted by   <a href="/">Stephen Sarfo </a> 
+                 on November 1, 2018
+                </p>
             </div>
             <hr/>
           </div>

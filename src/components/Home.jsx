@@ -57,7 +57,7 @@ export default class Home extends Component {
     <Row sm={2} md={3} className="show-grid test-center" responsive>
          <div  className="logos">
          {/* <Col> */}
-         <Image src="assets/html-5-logo.png" placeholder="Image here"  className="html-logo" height="200px" width="150px" responsive/>
+         <Image src="assets/html-5-logo.png" placeholder="Image here"  alt="" className="html-logo" height="200px" width="150px" responsive/>
          {/* </Col>
          <Col> */}
          <Image src="assets/css-svg-logo.png" placeholder="Image here"  className="css-logo" height="200px" width="150px" responsive/>

@@ -46,7 +46,7 @@ header.masthead .overlay {
 }
 
 header.masthead {
-    margin-bottom: 100px;
+    margin-bottom: 4%;
     background: no-repeat center center;
     background-color: #868e96;
     background-attachment: scroll;
@@ -117,6 +117,51 @@ header {
 .mr-auto, .mx-auto {
     margin-right: auto!important;
 } */
+
+.post-preview>a {
+    color: #212529;
+}
+
+a {
+    color: #212529;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    /* text-decoration: underline; */
+}
+
+@media only screen and (min-width: 768px){
+.post-preview>a>.post-title {
+    font-size: 36px;
+}
+}
+
+.post-preview>a>.post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color:#111;
+}
 
 hr {
     margin-top: 1rem;
