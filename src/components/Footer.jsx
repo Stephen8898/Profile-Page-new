@@ -3,7 +3,13 @@ import './style/Footer.css';
 import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
+ 
+  updateDate(){
+    var d = new Date();
+      return d.getFullYear();
+  }
   render() {
+   
     return (
      <div className="footer">
         <footer className="section footer-classic context-dark bg-image">
@@ -26,7 +32,7 @@ export default class Footer extends Component {
                       </dl>
                       <dl className="contact-list">
                         <dt>phones:</dt>
-                        <dd><a href="tel:#">+91 7568543012</a> <span>or</span> <a href="tel:#">+91 9571195353</a>
+                        <dd><a href="tel:#">Some number</a>
                         </dd>
                       </dl>
                     </div>
@@ -41,7 +47,7 @@ export default class Footer extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="footer-copyright text-center py-3">© 2018 Copyright: 
+                  <div className="footer-copyright text-center py-3">© {this.updateDate()} Copyright: 
                   <a href="/">Stephen web-page </a>
                 </div>
                 </div>

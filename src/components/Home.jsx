@@ -57,19 +57,32 @@ export default class Home extends Component {
     <Row sm={2} md={3} className="show-grid test-center" responsive>
          <div  className="logos">
          {/* <Col> */}
-         <Image src="assets/html-5-logo.png" placeholder="Image here"  alt="" className="html-logo" height="200px" width="150px" responsive/>
+         <Image src="assets/html-5-logo.png"   alt="Html-Logo" className="html-logo" height="200px" width="150px" responsive/>
          {/* </Col>
          <Col> */}
-         <Image src="assets/css-svg-logo.png" placeholder="Image here"  className="css-logo" height="200px" width="150px" responsive/>
+         <Image src="assets/css-svg-logo.png" alt="Html-Logo" className="css-logo"  className="css-logo" height="200px" width="150px" responsive/>
          {/* </Col>
          <Col> */}
-         <Image src="assets/javascript_badge.png" placeholder="Image here"  className="js-logo" height="200px" width="200px" responsive/>
+         <Image src="assets/javascript_badge.png" alt="Html-Logo" className="js-logo" className="js-logo" height="200px" width="200px" responsive/>
          {/* </Col> */}
          </div>
       </Row> 
-          <Row>
-          
-          </Row>
+      <hr/>
+      <Row className="about">
+          <h2>About</h2>
+          <Image  src="" className="about-pic" alt="Picture of me" responsive/>
+          <p>
+          Show it who's boss! This is a very individual thing, painting is. This is your dirt, so
+           you put it where you want it. Let's do a winter scene, what the heck. I want to do something 
+           that's just a little bit different, and I think you'll find it's fun. We're like drug dealers -- 
+           we come into town and get people absolutely addicted to painting. Follow the contour of the mountain. 
+           The other thing that is so fantastic about painting is that it teaches you to see. Take right off today! 
+           Pull from the outside in. Give it a lift-upper. Don't worry about it -- just sort of throw it in. Blend 
+           color right here on the canvas. Maybe we will have a little moon up here. Just let them fall right out of your brush.
+            Get tough with it. Just a nice little mountain, a little friendly guy. I'll show you exactly the kind of messes we get
+             into sometimes. Just any old thing that'll stick to the canvas. In the woods, you have all different colors of green.
+          </p>
+      </Row>
             
       </Grid>
       </div>

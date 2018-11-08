@@ -137,11 +137,11 @@
 .person-wrapper{
     margin-bottom: 2em;
 }
-
-.profile-pic{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 3em;
+Grid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 11%;
+    margin-left: auto;
 }
 
 .show-grid{
@@ -157,6 +157,13 @@
     margin-right: auto;
     margin-left: auto; 
     /* float: right; */
+}
+
+.html-logo{
+
+}
+.html-logo, .css-logo, .js-logo :hover{
+    cursor: pointer;
 }
 
 .show-grid .html-logo{
