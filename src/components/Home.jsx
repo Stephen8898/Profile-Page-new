@@ -37,11 +37,15 @@ export default class Home extends Component {
     var pageheader = {
       backgroundImage: `url(${'/assets/clouds-texture03.jpg'})`
     };
+
+    var style = {
+      margin: `auto`
+    };
     return (
       <div> 
         {/* <Grid> */}
           <header className="page-header" style={pageheader}>
-          {/* <div className="overlay"></div> */}
+          <div className="overlay"></div>
           <div className="container">
          <div className="row">
           <div className="col-lg-8 col-md-10 mx-auto">
@@ -53,7 +57,7 @@ export default class Home extends Component {
           </div>
          </div>
         </header>
-   <Grid>
+   <Grid style={style} className="container-grid">
     <Row sm={2} md={3} className="show-grid test-center" responsive>
          <div  className="logos">
          {/* <Col> */}

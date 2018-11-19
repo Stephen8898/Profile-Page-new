@@ -15,7 +15,7 @@ class App extends Component {
    
     return (
       <Router>
-        <div>
+        <React.Fragment>
           <Navbar/>
           <Switch>
           <Route exact path="/" component={Home}/>
@@ -23,7 +23,7 @@ class App extends Component {
           <Route path="/blog" component={Blog}/>
           </Switch>
           <Footer/>
-        </div>
+        </React.Fragment>
       </Router>
     );
   }
