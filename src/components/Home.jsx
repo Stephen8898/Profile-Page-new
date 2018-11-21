@@ -8,30 +8,39 @@ import './style/Blog.css';
 
 export default class Home extends Component {
 
-  // constructor (props){
-  //       super(props)
-  //       this.state = {
-
-  //       }
-  // }
-
+  constructor (props){
+        super(props)
+        this.state = {
+            title :''
+        }
+  }
  
-    // generateNews = this.generateNews.bind(this)
+    generateNewsTitle = this.generateNewsTitle.bind(this)
+    // changeNewsTitle = this.changeNewsTitle.bind(this);
 
-    //  generateNews(){
-    //    fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ this.api_Key)
-    //     .then((result) => {
-    //         return result.json();
-    //             })
-    //     .then((json) =>{
-    //         console.log(json);
-    //     })
-    // }
+   API_KEY = process.env.REACT_APP_NEWS_KEY;
+    
+     generateNewsTitle(){
+       fetch("https://newsapi.org/v2/top-headlines?country=us&apiKey="+ this.API_KEY)
+        .then((result) => {
+            return result.json();
+                })
+        .then((json) =>{
+            // console.log(json.articles[0].title);
+            this.changeNewsTitle(json.articles[0].title);
+        })
+    }
   
-    // componentDidMount() {
-    //     this.generateNews();
-    //   }
+    componentDidMount() {
+        this.generateNewsTitle();
+      }
   
+      changeNewsTitle(title){
+        this.setState({title});
+          
+      }
+     
+      
   render() {
 
     var pageheader = {
@@ -87,7 +96,8 @@ export default class Home extends Component {
              into sometimes. Just any old thing that'll stick to the canvas. In the woods, you have all different colors of green.
           </p>
       </Row>
-            
+            <h1>{this.state.title}</h1>
+            <button onClick={this.generateNewsTitle}>Display</button>
       </Grid>
       </div>
     )

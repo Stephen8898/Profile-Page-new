@@ -44,9 +44,9 @@ header.page-header {
     /* background-color: rgba(75, 204, 176, 0.87); */
     /* background-image: url("/assets/SpaceIIMG.jpg"); */
     margin-bottom: 1%;
-    background: no-repeat center center;
+    /* background: no-repeat center center; */
     background-color: #868e96;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
     position: relative;
     background-size: cover;
 }
