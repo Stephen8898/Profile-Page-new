@@ -27,7 +27,7 @@ export default class Home extends Component {
                 })
         .then((json) =>{
             // console.log(json.articles[0].title);
-            this.changeNewsTitle(json.articles[0].title);
+            // this.changeNewsTitle(json.articles[0].title);
         })
     }
   
@@ -73,10 +73,10 @@ export default class Home extends Component {
          <Image src="assets/html-5-logo.png"   alt="Html-Logo" className="html-logo" height="200px" width="150px" responsive/>
          {/* </Col>
          <Col> */}
-         <Image src="assets/css-svg-logo.png" alt="Html-Logo" className="css-logo"  className="css-logo" height="200px" width="150px" responsive/>
+         <Image src="assets/css-svg-logo.png" alt="Css-Logo" className="css-logo"  className="css-logo" height="200px" width="150px" responsive/>
          {/* </Col>
          <Col> */}
-         <Image src="assets/javascript_badge.png" alt="Html-Logo" className="js-logo" className="js-logo" height="200px" width="200px" responsive/>
+         <Image src="assets/JS-new.png" alt="Js-Logo" className="js-logo" className="js-logo" height="200px" width="200px" responsive/>
          {/* </Col> */}
          </div>
       </Row> 
@@ -96,8 +96,11 @@ export default class Home extends Component {
              into sometimes. Just any old thing that'll stick to the canvas. In the woods, you have all different colors of green.
           </p>
       </Row>
+          <Row className="gifImage">
+            <Image src="/assets/animated-under-construction.gif" alt="gif here" responsive/>
+          </Row>
             <h1>{this.state.title}</h1>
-            <button onClick={this.generateNewsTitle}>Display</button>
+            {/* <button onClick={this.generateNewsTitle}>Display</button> */}
       </Grid>
       </div>
     )
