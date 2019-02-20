@@ -67,19 +67,19 @@ export default class Home extends Component {
          </div>
         </header>
    <Grid style={style} className="container-grid">
-    <Row sm={2} md={3} className="show-grid test-center" responsive>
+    {/* <Row sm={2} md={3} className="show-grid test-center" responsive>
          <div  className="logos">
          {/* <Col> */}
-         <Image src="assets/html-5-logo.png"   alt="Html-Logo" className="html-logo" height="200px" width="150px" responsive/>
+         {/* <Image src="assets/html-5-logo.png"   alt="Html-Logo" className="html-logo" height="200px" width="150px" responsive/> */}
          {/* </Col>
          <Col> */}
-         <Image src="assets/css-svg-logo.png" alt="Css-Logo" className="css-logo"  className="css-logo" height="200px" width="150px" responsive/>
+         {/* <Image src="assets/css-svg-logo.png" alt="Css-Logo" className="css-logo"  className="css-logo" height="200px" width="150px" responsive/> */}
          {/* </Col>
          <Col> */}
-         <Image src="assets/JS-new.png" alt="Js-Logo" className="js-logo" className="js-logo" height="200px" width="200px" responsive/>
+         {/* <Image src="assets/JS-new.png" alt="Js-Logo" className="js-logo" className="js-logo" height="200px" width="200px" responsive/> */}
          {/* </Col> */}
-         </div>
-      </Row> 
+         {/* </div> */} 
+      {/* </Row>  */}
       <hr/>
       <Row className="about">
           <h2>About</h2>

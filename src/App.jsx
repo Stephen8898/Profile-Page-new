@@ -20,7 +20,7 @@ class App extends Component {
           <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/portfolio"component={Portfolio}/>
-          <Route path="/blog" component={Blog}/>
+          {/* <Route path="/blog" component={Blog}/> */}
           </Switch>
           <Footer/>
         </React.Fragment>
